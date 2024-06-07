@@ -1,0 +1,72 @@
+https://jsfiddle.net/lexicoding/2kyzfL5g/#&togetherjs=KgLvKryOtp
+
+<!doctype html>
+<html>
+
+  <head>
+    <title>HTML Demo</title>
+  </head>
+
+  <body>
+    <h1>
+      Welcome to Lexi's home page
+    </h1>
+    <hr>
+    <p>
+      I am on my way to become a Front End Developer.
+    </p>
+    <div>
+      I know a little bit of html, css and javascript.<br>
+      Check out the javascript I have written by clicking the button below, and do as directed to see some of my WordPress skills.
+    </div><br>
+    <button onclick="hello()">
+      Wish
+    </button>
+    <hr>
+    <footer>
+      &copy; 2024 <a href="https://songsfornature.wordpress.com">songsfornature.wordpress.com</a>
+    </footer>
+  </body>
+
+</html>
+
+
+body {
+  background-color: limegreen
+}
+
+h1 {
+  font-family: impact;
+  font-size: 25px;
+  color: black;
+}
+
+p {
+  font-family: impact;
+  font-size: 15px;
+  color: white;
+}
+
+div {
+  background-color: white;
+  width: 300px;
+  color: black;
+}
+
+footer {
+  background-color: yellow;
+  width: 300px;
+  color: black;
+  font-family: roboto;
+  font-size: 15px;
+}
+
+
+function hello() {
+  alert("Hello how are you doing?\n\nVisit my website to join us in creating Harmony for Earth, a remote playlist for Eco-Conscious music\n\nLINK IN THE FOOTER");
+}
+
+function showtime() {
+  var now = new Date();
+  alert(now);
+}
